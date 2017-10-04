@@ -7,10 +7,5 @@ body {
   font-family: 'Aldrich', sans-serif;
   font-size: 25px;
 }
-h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
+
 `;
