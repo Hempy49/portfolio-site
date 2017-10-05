@@ -8,8 +8,8 @@ export const ProfileImage = styled.div`
   height: 100vh;
   background-image: url('${require('../../assets/MA-profile-small.jpg')}');
   background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
+  background-size: 50%;
+  background-position: center;
 `;
 
 export const RevealP = styled.p`
@@ -25,7 +25,7 @@ export const RevealP = styled.p`
 
     transform-origin: left;
     transform: rotateY(90deg);
-    transition: transform 1s;
+    transition: transform 2s;
   }
 
   ${({hide}) => hide && css`
