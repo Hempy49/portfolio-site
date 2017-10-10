@@ -15,3 +15,11 @@ export const NavItem = styled(Link)`
       color: blue;
     }
 `;
+
+export const StyledA = styled.a`
+    margin-right: 30px;
+    cursor: pointer;
+    &:hover {
+      color: blue;
+    }
+`;

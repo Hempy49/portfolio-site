@@ -9,7 +9,7 @@ class Projects extends Component {
         <h1>My Projects</h1>
         <a href='https://zombie-paint-902ce.firebaseapp.com/'>
         <ImageButton>
-        <ZombieImage src={require('../../assets/zombie-paint-image.jpeg')} alt='Zombie paint image'/>
+        <ZombieImage src={require('../../assets/images/zombie-paint-image.jpeg')} alt='Zombie paint image'/>
          </ImageButton>
         </a>
         <p>
@@ -18,7 +18,7 @@ class Projects extends Component {
         </p>
         <a href='https://github.com/Hempy49/instagram-challenge'>
         <ImageButton>
-        <HempyGram src={require('../../assets/instagram-image.png')} alt='Instagram image' />
+        <HempyGram src={require('../../assets/images/instagram-image.png')} alt='Instagram image' />
         </ImageButton>
         </a>
         <p>

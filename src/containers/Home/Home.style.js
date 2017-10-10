@@ -6,7 +6,7 @@ export const Image = styled.img`
 
 export const ProfileImage = styled.div`
   height: 100vh;
-  background-image: url('${require('../../assets/MA-profile-small.jpg')}');
+  background-image: url('${require('../../assets/images/MA-profile-small.jpg')}');
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
