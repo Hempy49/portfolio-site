@@ -8,4 +8,8 @@ body {
   font-family: 'Aldrich', sans-serif;
   font-size: 25px;
 }
+
+h1 {
+  color: white;
+}
 `;

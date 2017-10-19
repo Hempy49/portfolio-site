@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 export const NavigationContainer = styled.div`
     position: fixed;
     right: 0;
+    margin-left: 20px;
     right: 2em;
     top: 1.5em;
 `;

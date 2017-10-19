@@ -11,6 +11,7 @@ class NavigationBar extends Component {
         <NavItem to='/projects'>Projects</NavItem>
         <NavItem to='/aboutMe'>About Me</NavItem>
         <StyledA href={'https://github.com/Hempy49/CV'}>Resume</StyledA>
+        <NavItem to='/contact'>Contact</NavItem>
          </NavigationContainer>
       )
     }
