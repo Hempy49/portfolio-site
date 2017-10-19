@@ -24,3 +24,18 @@ export const StyledA = styled.a`
       color: blue;
     }
 `;
+
+export const NavButton = styled.div`
+cursor: pointer;
+overflow: hidden;
+display: inline-block;
+
+& > div {
+  transition: transform .2s;
+  }
+&:hover {
+  & > div {
+    transform: scale(1.02);
+  }
+}
+`;

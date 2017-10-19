@@ -7,11 +7,9 @@ export default class Home extends Component {
   render() {
     return (
       <Container>
-      <ProfileImage>
-      <h1>Simon Hempenstall</h1>
-      <h2>Full Stack Developer</h2>
-      </ProfileImage>
-      {/*<Image src={require('../../assets/MA-profile-small.jpg')} alt='profile image'/>*/}
+        <h1>Simon Hempenstall</h1>
+        <h2>Full Stack Developer</h2>
+      <Image src={require('../../assets/images/MA-profile-small.jpg')} alt='profile image'/>
       <RevealP>
         I got my first taste of coding several years ago while working as a primary school teacher.
         There I learnt how to use Scratch to teach children the basics of programming.

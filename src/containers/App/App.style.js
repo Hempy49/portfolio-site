@@ -4,6 +4,7 @@ export const Background = styled.div`
   position: fixed;
   width: 100vw;
   top: 10vh;
+  right: 0.4vw;
   height: 100vh;
   background-image: url('${require('../../assets/images/Portfolio-background.png')}');
   z-index: -99;
@@ -11,5 +12,4 @@ export const Background = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.5;
-
 `;

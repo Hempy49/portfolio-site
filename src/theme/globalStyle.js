@@ -12,4 +12,8 @@ body {
 h1 {
   color: white;
 }
+
+h2 {
+  color: white;
+}
 `;

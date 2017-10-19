@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
-export const ZombieImage = styled.img`
-  height: 30%;
-  width: 30%;
-`;
-
-export const HempyGram = styled.img`
+export const ProjectImage = styled.img`
   height: 100%;
   width: 100%;
 `;
