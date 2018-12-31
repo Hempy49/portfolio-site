@@ -11,7 +11,7 @@ class AboutMe extends Component {
       <p>I am a keen musician. Here is a live video of a song
       I co-wrote called 'August Second':</p>
       <ReactPlayer controls
-      url={require('../../assets/videos/August-second.mov')}></ReactPlayer>
+      url={'https://www.youtube.com/watch?v=eZiHkkLu2Fk'}></ReactPlayer>
       </Container>
   );
   }
