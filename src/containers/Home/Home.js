@@ -8,15 +8,12 @@ export default class Home extends Component {
     return (
       <Container>
         <h1>Simon Hempenstall</h1>
-        <h2>Full Stack Developer</h2>
+        <h2>Solutions Engineer and Front-end enthusiast</h2>
       <Image src={require('../../assets/images/MA-profile-small.jpg')} alt='profile image'/>
       <RevealP>
-        I got my first taste of coding several years ago while working as a primary school teacher.
-        There I learnt how to use Scratch to teach children the basics of programming.
-        This sparked an interest in coding that has grown ever since.
-        I left teaching a few years ago to work for a digital education company, where I was employed as a senior advisor for their website.
-        In this role I got the chance to work alongside experienced software engineers and learnt some basic HTML / CSS.
-        I quickly realised I wanted the developers jobs and I was in the wrong team!
+      Experienced Solutions Engineer with a demonstrated history of working in the information technology and services industry. 
+      Skilled in Web Development, DataAnalytics, JavaScript, Ruby, and SaaS products. 
+      Recently graduated from Makers Academy, where I trained in Full Stack Web Development.
         </RevealP>
       </Container>
     );
